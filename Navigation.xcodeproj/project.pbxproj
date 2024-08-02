@@ -14,6 +14,7 @@
 		BDC97F4E2C5417A100BA4488 /* NavigationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC97F4D2C5417A100BA4488 /* NavigationTests.swift */; };
 		BDC97F582C5417A100BA4488 /* NavigationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC97F572C5417A100BA4488 /* NavigationUITests.swift */; };
 		BDC97F5A2C5417A100BA4488 /* NavigationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC97F592C5417A100BA4488 /* NavigationUITestsLaunchTests.swift */; };
+		BDC97F672C541A1100BA4488 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC97F662C541A1100BA4488 /* SecondView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		BDC97F532C5417A100BA4488 /* NavigationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NavigationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDC97F572C5417A100BA4488 /* NavigationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationUITests.swift; sourceTree = "<group>"; };
 		BDC97F592C5417A100BA4488 /* NavigationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BDC97F662C541A1100BA4488 /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				BDC97F3C2C54179F00BA4488 /* NavigationApp.swift */,
 				BDC97F3E2C54179F00BA4488 /* ContentView.swift */,
+				BDC97F662C541A1100BA4488 /* SecondView.swift */,
 				BDC97F402C5417A000BA4488 /* Assets.xcassets */,
 				BDC97F422C5417A000BA4488 /* Preview Content */,
 			);
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDC97F672C541A1100BA4488 /* SecondView.swift in Sources */,
 				BDC97F3F2C54179F00BA4488 /* ContentView.swift in Sources */,
 				BDC97F3D2C54179F00BA4488 /* NavigationApp.swift in Sources */,
 			);
